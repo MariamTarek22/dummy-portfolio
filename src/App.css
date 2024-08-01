@@ -1,0 +1,21 @@
+@import "@fortawesome/fontawesome-free/css/all.css";
+:root {
+  --primary: rgb(182, 157, 230);
+}
+.active {
+  background-color: rgb(26, 188, 156);
+  border: 1px solid rgb(26, 188, 156);
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  min-height: calc(-125px + 100vh);
+}
+
+
